@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.visionmod.mixin",
+  "plugin": "com.visionmod.VisionMixinPlugin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "LightTextureMixin", "FogRendererMixin", "PlayerHeartsMixin", "ParticleEngineMixin", "ClientLevelParticlesMixin", "SprintParticleMixin",
+    "FreeLookMouseMixin", "FreeLookCameraMixin"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}
